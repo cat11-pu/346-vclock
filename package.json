@@ -1,0 +1,5 @@
+{
+  "name": "vclock",
+  "private": true,
+  "type": "module"
+}

@@ -1,0 +1,16 @@
+{
+  "budget": 2,
+  "bad_node_code": "E_BAD_NODE",
+  "dup_node_code": "E_DUP_NODE",
+  "no_node_code": "E_NO_NODE",
+  "same_code": "E_SAME_NODE",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "clocks": [], "marks": [], "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "join", "node": "a" },
+    { "id": 2, "kind": "join", "node": "b" },
+    { "id": 3, "kind": "bump", "node": "a" },
+    { "id": 4, "kind": "sync", "from": "a", "to": "b" },
+    { "id": 5, "kind": "mark", "node": "b" }
+  ]
+}
